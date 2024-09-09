@@ -849,6 +849,10 @@ section.footer .strong {
         display: flex;
         flex-direction: column;
     }
+    /* footer */
+    section.footer {
+        padding: 3rem;
+    }
     section.footer .container {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
