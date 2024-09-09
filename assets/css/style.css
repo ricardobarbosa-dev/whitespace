@@ -853,6 +853,9 @@ section.footer .strong {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
     }
+    section.footer .btn-buy {
+        width: 20rem;
+    }
 }
 
 /* Medium screens (600px to 799px) */
