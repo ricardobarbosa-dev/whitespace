@@ -23,7 +23,6 @@
 }
 html {
     font-size: 62.5%;
-    overflow-x: hidden;
 }
 body {
     background-color: var(--background);
@@ -853,12 +852,7 @@ section.footer .strong {
     section.footer .container {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
-        gap: 5rem;
     }
-    section.footer .links {
-        width: 20rem;
-    }
-    
 }
 
 /* Medium screens (600px to 799px) */
