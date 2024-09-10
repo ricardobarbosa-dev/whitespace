@@ -671,6 +671,45 @@ section.footer .strong {
     font-size: 1.7rem;
 }
 
+/* sub footer */
+section.sub-footer {
+    margin-top: 5rem;
+}
+.line {
+    border-bottom: 1px solid var(--background-secondary);
+    margin-bottom: 3rem;
+    width: 100%;
+}
+.sub-links {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.sub-links li {
+    color: var(--text);
+    font-size: 1.2rem;
+}
+
+.icons-footer {
+    display: flex;
+    gap: 1rem;
+    margin-left: 60rem;
+}
+
+.icons-footer i {
+    color: var(--text); 
+    font-size: 1.5rem; 
+}
+
+
+
+
+
+
+
+
+
 
 
 
