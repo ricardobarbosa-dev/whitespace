@@ -684,6 +684,8 @@ section.sub-footer {
     display: flex;
     gap: 3rem;
     margin-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .sub-links li {
@@ -694,7 +696,6 @@ section.sub-footer {
 .icons-footer {
     display: flex;
     gap: 1rem;
-    margin-left: 60rem;
 }
 
 .icons-footer i {
@@ -898,6 +899,11 @@ section.sub-footer {
     }
     section.footer .btn-buy {
         width: 20rem;
+    }
+    .sub-links {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        place-items: center;
     }
 }
 
